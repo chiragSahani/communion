@@ -40,8 +40,8 @@ This is a fully responsive event management website built with React and TypeScr
 ## 📦 Installation  
 1. **Clone the repository:**  
    ```bash
-   git clone https://github.com/.git
-   cd your-repo-name
+   git clone https://github.com/chiragSahani/communion.git
+   cd communion
    ```  
 2. **Install dependencies:**  
    ```bash
