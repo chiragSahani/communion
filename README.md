@@ -1,41 +1,39 @@
 
-# Event Management Website  
 
-This is a fully responsive event management website built with React and TypeScript. It allows users to view upcoming events, filter them by category, and add new events dynamically. The site features a visually appealing UI with animations and smooth interactions.  
+# 🎉 Event Management Website  
+
+A responsive event management website built with **React + TypeScript**, featuring event browsing, filtering, and an event submission form.  
 
 ## 🚀 Features  
-- **Homepage** with an introduction and a hero section.  
-- **Events Section** displaying upcoming events with images, details, and animations.  
-- **Filtering System** to sort events by category.  
-- **Event Submission Form** to add new events dynamically.  
-- **Responsive Design** with Tailwind CSS.  
-- **Smooth Animations** using Framer Motion.  
+- **Homepage** (`Home.tsx`) with an introduction.  
+- **About Page** (`About.tsx`) with details about the project.  
+- **Events Page** (`Events.tsx`) displaying upcoming events with animations.  
+- **Header Component** (`Header.tsx`) for navigation.  
+- **Dynamic Event Filtering & Submission Form**.  
+- **Fully Responsive Design** using Tailwind CSS.  
 
 ## 🛠️ Technologies Used  
-- **React** – For the front-end UI.  
-- **TypeScript** – To ensure type safety.  
-- **Framer Motion** – For smooth animations.  
-- **Tailwind CSS** – For fast and responsive styling.  
-- **Lucide React** – For icons.  
+- **React + TypeScript**  
+- **Framer Motion** (Animations)  
+- **Tailwind CSS** (Styling)  
+- **Lucide React** (Icons)  
 
-## 📂 File Structure  
+## 📂 Project Structure  
 ```
-/src
-│── /components
-│   ├── Header.tsx          # Navigation bar
-│   ├── Hero.tsx            # Homepage hero section
-│   ├── Events.tsx          # Main events component
-│   ├── EventForm.tsx       # Form to add new events
-│   ├── Footer.tsx          # Website footer
-│── /assets                 # Static assets (images, icons)
-│── /types
-│   ├── index.ts            # Type definitions
-│── App.tsx                 # Main App file
-│── index.tsx               # Entry point
-│── tailwind.config.ts       # Tailwind configuration
+communion/project
+│── dist/                   # Compiled files
+│   ├── assets/             # Static assets (JS, CSS, HTML)
+│── src/
+│   ├── components/
+│   │   ├── Header.tsx      # Navbar
+│   ├── pages/
+│   │   ├── Home.tsx        # Homepage
+│   │   ├── About.tsx       # About page
+│   │   ├── Events.tsx      # Events page
+│   ├── App.tsx             # Main App entry
 │── package.json            # Dependencies
 │── README.md               # Documentation
-```  
+```
 
 ## 📦 Installation  
 1. **Clone the repository:**  
@@ -57,13 +55,12 @@ This is a fully responsive event management website built with React and TypeScr
    ```  
 
 ## 🎯 Usage  
-- Browse upcoming events on the homepage.  
-- Filter events using the category dropdown.  
-- Add a new event using the form.  
-- Experience smooth transitions and animations.  
+- Navigate between **Home**, **About**, and **Events**.  
+- Browse and filter events on the **Events Page**.  
+- Use the **Form** to add new events.  
 
 ## 🤝 Contributing  
 1. Fork the repository.  
 2. Create a new branch (`feature-branch`).  
-3. Make your changes and commit.  
-4. Push to your branch and create a Pull Request.  
+3. Commit and push your changes.  
+4. Open a **Pull Request**.  
